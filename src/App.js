@@ -71,9 +71,9 @@ function Percentage({ children, curPercent, newPercent }) {
 function Total({ curBill, billPercent }) {
   const total = curBill + billPercent;
   return (
-    <strong>
+    <h1>
       You'll pay ${total} (${curBill} + ${billPercent} tip){' '}
-    </strong>
+    </h1>
   );
 }
 
